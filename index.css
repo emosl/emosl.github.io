@@ -1,0 +1,37 @@
+
+body,html{
+    background-color: rgb(159, 238, 244);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 7px;
+    padding: 30px;
+    text-decoration: underline wavy 3px white;
+    border-radius: 25px;
+    color: rgb(220, 95, 205);
+    font-size: 40px;
+    background-color: pink;
+}
+
+
+.tarea1{
+    background-color: rgb(219, 242, 134);
+    margin: 7px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: orange;
+    font-size: larger;
+}
+
+.tarea2{
+    background-color: rgb(134, 242, 138);
+    margin: 7px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(26, 96, 19);
+    font-size: larger;
+}
