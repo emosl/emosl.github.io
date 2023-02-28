@@ -1,85 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 300px;
+    background-color: rgb(244, 121, 84);
+    font-size: 90px;
+    color: rgb(243, 43, 3);
+    border-radius: 25px;
+    margin: 7px;
+    text-decoration: underline overline dotted #f3038f;
+    border:dashed 5px whitesmoke;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration:underline wavy;
+    font-size: 30px;
+
+}
+
+body{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(218, 218, 153);
+}
+
+p{
+    font-size: larger;
+}
+
 #s1 {
-    background-color: #FFD9E8; 
+    background-color: #FFD9E8;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
+   
  }
  
  #s2 {
     background-color: #FFC2D6;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s3 {
     background-color: #FFABC3;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s4 {
     background-color: #FF95B1;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s5 {
     background-color: #FF7E9E;
+    border-radius: 25px;
+    padding: 20px;
+    border:dashed 5px whitesmoke;
  }
  
  #s6 {
     background-color: #FF688C;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s7 {
     background-color: #FF5179;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s8 {
     background-color: #FF3B67;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s9 {
     background-color: #FF244F;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s10 {
     background-color: #FF0D37;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s11 {
     background-color: #FF0024; 
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s12 {
     background-color: #FF0F30;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s13 {
     background-color: #FF1E3D;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s14 {
     background-color: #FF2C49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s15 {
     background-color: #FF3B56;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s16 {
     background-color: #FF4962;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s17 {
     background-color: #FF5870;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s18 {
     background-color: #FF667D;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s19 {
     background-color: #FF7690;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s20 {
     background-color: #FF87A2;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
  
  #s21 {
     background-color: #FF98B5; 
+    border-radius: 25px;
+    padding: 20px;
+    margin: 7px;
+    border:dashed 5px whitesmoke;
  }
 
  body {
@@ -176,17 +292,23 @@
 
 #width1{
     width: 150px;
-    text-align: justify;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
 
 #width2{
     width: 15px;
-    text-align: justify;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
 
 #width3{
     width: 200px;
-    text-align: justify;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
 
 #height1{
@@ -214,13 +336,40 @@
 
 #padding{
     padding: 30px;
+    
 }
 
 #overflow{
-  width: 40px;
+  width: 100px;
+  height: 100px;;
   overflow: scroll;
+  margin: auto;
 }
 
 #display{
-    display: grid;
+    margin: auto;
+    display: list-item;
+}
+
+#position{
+    position: relative;
+    left: 200px;
+}
+
+#filter1{
+    filter: blur(3px);
+    width: 200px;
+    height: 200px;
+}
+
+#filter2{
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+}
+
+#filter3{
+    width: 200px;
+    height: 200px;
+    filter: brightness(55%);
 }
