@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#temp1{
+    color:rgb(197, 28, 203);
+    background-color: #df99f0;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#temp2{
+    color:rgb(242, 13, 36);
+    background-color: #f0727d;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#temp3{
+    color:rgb(233, 90, 47);
+    background-color: #f09e72;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#temp4{
+    color:rgb(210, 184, 39);
+    background-color: #f9dc74;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.grid-container, .grid-container1, .grid-container2, .grid-container3, .grid-container4{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    text-decoration:underline dashed 3px;
+   
+}
+
+
+
+.grid-container{
+    padding: 10px ;
+    height: 100vh;
+    background-color:#E6E6FA;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+    gap:10px;
+    border: whitesmoke dashed 3px;
+    
+    
+    
+
+    grid-template-areas: 
+    ". . ."
+    ". . .";
+
+}
+
+.grid-item{
+    padding: 10px ;
+    border-radius: 25px;
+    border: whitesmoke double 15px;
+
+    /* margin: 10px; */
+}
+
+.grid-item:nth-child(1){
+    background-color: #C8A2C8;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item:nth-child(2){
+    background-color:#DDA0DD;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item:nth-child(3){
+    background-color: #9966CC;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item:nth-child(4){
+    background-color: #6A5ACD;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item:nth-child(5){
+    background-color:  #E0B0FF;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item:nth-child(6){
+    background-color:#DA70D6;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+
+.grid-container1{
+    padding: 10px;
+    height: 100vh;
+    background-color:#FFCCCC ;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    gap:10px;
+    border: whitesmoke dashed 3px;
+
+    grid-template-areas: 
+    "header header header"
+    "squ rec rec"
+    "squ . ."
+    ;
+
+}
+.grid-item1{
+    padding: 10px ;
+    border-radius: 25px;
+    border: whitesmoke double 15px;
+
+    /* margin: 10px; */
+}
+.grid-item1:nth-child(1){
+    background-color: #FF9999;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item1:nth-child(2){
+    background-color:#FF6666;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item1:nth-child(3){
+    background-color: #FF3333;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item1:nth-child(4){
+    background-color: #FF0000;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item1:nth-child(5){
+    background-color:  #CC0000;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+#grid-header{
+    grid-area: header;
+}
+
+#grid-square{
+    grid-area: squ;
+}
+
+#grid-rec{
+    grid-area: rec;
+}
+
+.grid-container2{
+    padding: 10px;
+    height: 100vh;
+    background-color:#FFE6CC ;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:repeat(6, 1fr);
+    gap:10px;
+    border: whitesmoke dashed 3px;
+
+    grid-template-areas: 
+    "mit1 mit1 mit1 mit2 mit2 mit2 "
+    "mit1 mit1 mit1 mit2 mit2 mit2 "
+    "recmini recmini recmega recmega recmega recmega "
+    "recmini recmini recmega recmega recmega recmega "
+    "recmini recmini recmega recmega recmega recmega "
+    "footer footer footer footer footer footer "
+   
+    ;
+
+}
+.grid-item2{
+    padding: 10px ;
+    border-radius: 25px;
+    border: whitesmoke double 15px;
+
+    /* margin: 10px; */
+}
+.grid-item2:nth-child(1){
+    background-color: #FFCC99;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item2:nth-child(2){
+    background-color:#FFB266;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item2:nth-child(3){
+    background-color: #FF9933;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item2:nth-child(4){
+    background-color: #FF8000;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item2:nth-child(5){
+    background-color: #CC6600;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+#grid-footer{
+    grid-area: footer;
+}
+
+#grid-mit1{
+    grid-area: mit1;
+}
+
+#grid-mit2{
+    grid-area: mit2;
+}
+#grid-recmega{
+    grid-area: recmega;
+}
+#grid-recmini{
+    grid-area: recmini;
+}
+
+
+.grid-container3{
+    padding: 10px;
+    height: 100vh;
+    background-color:#FFFFE6 ;
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows:repeat(3, 2fr);
+    gap:10px;
+    border: whitesmoke dashed 3px;
+    grid-template-areas: 
+    "uno uno dos dos "
+    "squ squ subb subb"
+    "squ squ subb subb";
+       
+    
+}
+.grid-item3{
+    padding: 10px ;
+    border-radius: 25px;
+    border: whitesmoke double 15px;
+
+    /* margin: 10px; */
+}
+    
+.grid-item3:nth-child(1){
+    background-color: #FFFFB3;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item3:nth-child(2){
+    background-color:#FFFF80;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item3:nth-child(3){
+    background-color: #FFFF4D;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item3:nth-child(4){
+    background-color: #FFFF1A;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+#uno{
+    grid-area: uno;
+}
+
+#dos{
+    grid-area: dos;
+}
+
+#escu{
+    grid-area: squ;
+}
+#subb{
+    grid-area: subb;
+}
+
+
+.grid-container4{
+    height: 100%;
+    display:grid;
+    grid-template-columns: (2, 1fr) ;
+    grid-template-rows:(2, 1fr);
+    gap:10px;
+   
+    
+    grid-template-areas: 
+    "header header "
+    ". . ";
+}
+
+.grid-item4{
+    padding: 10px ;
+    border-radius: 25px;
+    border: whitesmoke double 15px;
+
+    /* margin: 10px; */
+}
+.grid-item4:nth-child(1){
+    background-color: #E6E600;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item4:nth-child(2){
+    background-color: #B3B300;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.grid-item4:nth-child(3){
+    background-color: #808000;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+#header{
+    grid-area: header;
+}
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

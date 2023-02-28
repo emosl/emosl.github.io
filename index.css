@@ -35,3 +35,13 @@ h1{
     color: rgb(26, 96, 19);
     font-size: larger;
 }
+
+.tarea3{
+    background-color: rgb(134, 157, 242);
+    margin: 7px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(14, 51, 110);
+    font-size: larger;
+}
