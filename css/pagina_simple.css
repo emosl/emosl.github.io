@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.grid-container{
+    padding: 10px ;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:5% 45% 10% 25% 5%;
+    gap:10px;
+    border: whitesmoke dashed 3px;
+
+    grid-template-areas: 
+    "r1 r1 r1"
+    "r2 r2 r2"
+    "r3 r3 r3"
+    "r4 r4 r4"
+    "r5 r5 r5";
+}
+
+.grid-item:nth-child(1){
+    grid-area: r1;
+}
+.grid-item:nth-child(2){
+    grid-area: r2;
+}
+.grid-item:nth-child(3){
+    grid-area: r3;
+}
+.grid-item:nth-child(4){
+    grid-area: r4;
+}
+.grid-item:nth-child(5){
+    grid-area: r5;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.flex-container4{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.flex-container5{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
