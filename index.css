@@ -64,3 +64,12 @@ h1{
     color: rgb(60, 8, 57);
     font-size: larger;
 }
+.tarea6{
+    background-color: rgb(176, 155, 240);
+    margin: 7px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(84, 39, 161);
+    font-size: larger;
+}
